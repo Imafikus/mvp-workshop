@@ -33,4 +33,4 @@ server {
 }
 ```
 
-- Certbot should be set up in order to use 443 instead of 80 as the default port, honestly, I just followed the guide from <https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04> to be completely honest since It's been a while since I've done this. I'm currently mostly using <https://caddyserver.com/> for reverse proxy, since it has more out-of-the-box setup than nginx.
+- Certbot should be set up in order to use 443 instead of 80 as the default port, honestly, I just followed the guide from <https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04> but run of time. To be completely honest since It's been a while since I've done this so the guide was needed. I'm currently mostly using <https://caddyserver.com/> for reverse proxy, since it has more out-of-the-box setup than nginx.
