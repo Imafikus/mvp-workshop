@@ -10,7 +10,7 @@ const port = 8000;
 
 // set up server
 app.get('/', async (req: Request, res: Response) => {
-  res.send('Welcome to Express & TypeScript Server');
+  res.send('Hello MVP');
 });
 
 app.listen(port, () => {
