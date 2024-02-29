@@ -1,8 +1,10 @@
 # Running the thing
 
+- Create `.env` file and copy `.env.examples` into it and put your own alchemy api key
 - Run `run_docker.sh`, make sure you don't have anything else running on port 8000
 - GET request to `http://localhost:8000/` should return `Hello MVP`
 - If you interact with [this contract](https://sepolia.etherscan.io/address/0x65d9a74a333324710c1227ff3653e409199465e4#events) and either call `remove` or `set` you should see output in the console
+- Run `docker kill mvp` when you are done with testing
 
 ## Deploying this to the cloud
 
